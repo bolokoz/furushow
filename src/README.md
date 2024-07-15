@@ -15,19 +15,15 @@ actions:
     icon: signs-post
     type: primary
 
-  - text: Blog
+  - text: Notas e postagens
     icon: lightbulb
     link: ./posts/
-
-  - text: Notas
-    icon: star
-    link: ./notas/
 
 highlights:
   - header: Projetos favoritos
     image: /assets/image/markdown.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
     bgImageStyle:
       background-repeat: repeat
       background-size: initial
