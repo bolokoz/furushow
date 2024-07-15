@@ -25,3 +25,6 @@ coverage/
 .DS_Store
 node_modules
 .env
+
+
+pnpm-lock.yaml
