@@ -12,8 +12,7 @@ tag:
 
 Tentativa de traduzir
 
-1. ![](/assets/qrcode_dik.png)kjhj
-2. h
-3. hiojh
-4. kjh
-5. ;kljmkl
+1. h
+2. hiojh
+3. kjh
+4. ;kljmkl
