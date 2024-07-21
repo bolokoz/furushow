@@ -14,6 +14,5 @@ rating: 3
 price: 60
 local: Vino
 cover: /absurdo.png
-layout: Parmegiana
 ---
 
