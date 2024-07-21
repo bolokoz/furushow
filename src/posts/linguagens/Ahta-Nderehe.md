@@ -10,6 +10,8 @@ tag:
 
 Ahátamante chave, ñane tapỹi ahejáta
 
+> Voy ,,, nuestro ... dejaré
+
 Mba'épiko a-remediáta ndavy'avéiva avei
 
 > o que remediará a tristeza também?
