@@ -13,7 +13,7 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "http://lorempixel.com.br/300/300/?1",
 
   repo: "bolokoz/furushow",
 
@@ -204,4 +204,4 @@ export default hopeTheme({
     //   },
     // },
   },
-});
+}, {custom: true});

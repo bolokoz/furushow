@@ -10,9 +10,34 @@ tag:
   - polka paraguaia
 ---
 
-Tentativa de traduzir
+Aikoteve nderehe
 
-1. h
-2. hiojh
-3. kjh
-4. ;kljmkl
+mitare mi vida
+
+ nderehe eiko querida
+
+ase mbareei nendive
+
+en pensamiento paite
+
+oike akãme idea
+
+aipota resolvema
+
+rejutarose ndive
+
+che korasõ aikove
+
+mborayhu ne mbaraiate
+
+aipota reikuaate
+
+nerenduase ha'e
+
+nderehe odepende
+
+koranguã te unido
+
+se ko aime recebido
+
+nderehe upa nendive

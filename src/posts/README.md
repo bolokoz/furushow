@@ -3,7 +3,6 @@ home: true
 layout: BlogHome
 icon: blog
 title: Blog Home
-heroImage: http://lorempixel.com.br/300/300/?1
 heroText: Boloko blog
 tagline: 
 projects:
