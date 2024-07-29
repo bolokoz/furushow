@@ -209,6 +209,41 @@ export default defineConfig({
           },
           {
             type: "number",
+            name: "rating_tecnica",
+            label: "Nota tecnica 1 a 5",
+          },
+          {
+            type: "number",
+            name: "rating_carne",
+            label: "Nota carne 1 a 5",
+          },
+          {
+            type: "number",
+            name: "rating_molho",
+            label: "Nota mohlo 1 a 5",
+          },
+          {
+            type: "number",
+            name: "rating_crosta",
+            label: "Nota crosta 1 a 5",
+          },
+          {
+            type: "number",
+            name: "rating_acompanhamentos",
+            label: "Nota acompanhamentos 1 a 5",
+          },
+          {
+            type: "number",
+            name: "rating_restaurante",
+            label: "Nota restaurante 1 a 5",
+          },
+          {
+            type: "number",
+            name: "rating_maisvalia",
+            label: "Nota maisvalia 1 a 5",
+          },
+          {
+            type: "number",
             name: "price",
             label: "Valor pago",
           },
