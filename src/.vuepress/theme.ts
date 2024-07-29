@@ -1,4 +1,5 @@
 import { hopeTheme } from "vuepress-theme-hope";
+// import { catalogPlugin } from '@vuepress/plugin-catalog'
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
@@ -63,6 +64,7 @@ export default hopeTheme({
   plugins: {
     blog: true,
 
+
     // Install @waline/client before enabling it
     // Note: This is for testing ONLY!
     // You MUST generate and use your own comment service in production.
@@ -109,7 +111,7 @@ export default hopeTheme({
       vPre: true,
 
       // install chart.js before enabling it
-      // chart: true,
+      chart: true,
 
       // insert component easily
 
