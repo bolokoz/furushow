@@ -6,16 +6,11 @@ title: Centrale
 description: Avaliação de Parmegiana
 date: 2024-07-20T04:00:00.000Z
 category:
-  - food rating
   - Food Rating
 tag:
-  - parmegiana
   - Parmegiana
 acompanhamentos:
   - arrroz
-nota: 3
-justificativa: asdfoasidjfaos
-images: asdfasdfoj
 ---
 
 123
