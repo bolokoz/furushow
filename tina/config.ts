@@ -20,10 +20,14 @@ export default defineConfig({
     publicFolder: "src/.vuepress/public",
   },
   media: {
-    tina: {
-      mediaRoot: "",
-      publicFolder: "src/.vuepress/public",
+    loadCustomStore: async () => {
+      const pack = await import('next-tinacms-cloudinary');
+      return pack.TinaCloudCloudinaryMediaStore;
     },
+    // tina: {
+    //   mediaRoot: "",
+    //   publicFolder: "src/.vuepress/public",
+    // },
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
@@ -209,23 +213,13 @@ export default defineConfig({
           },
           {
             type: "number",
-            name: "rating_tecnica",
-            label: "Nota tecnica 1 a 5",
-          },
-          {
-            type: "number",
             name: "rating_carne",
-            label: "Nota carne 1 a 5",
+            label: "Nota carne e crosta 1 a 5",
           },
           {
             type: "number",
             name: "rating_molho",
-            label: "Nota mohlo 1 a 5",
-          },
-          {
-            type: "number",
-            name: "rating_crosta",
-            label: "Nota crosta 1 a 5",
+            label: "Nota molho e queijo 1 a 5",
           },
           {
             type: "number",
@@ -235,12 +229,17 @@ export default defineConfig({
           {
             type: "number",
             name: "rating_restaurante",
-            label: "Nota restaurante 1 a 5",
+            label: "Nota atmosfera 1 a 3",
+          },
+          {
+            type: "number",
+            name: "rating_presentation",
+            label: "Nota presentacao 1 a 3",
           },
           {
             type: "number",
             name: "rating_maisvalia",
-            label: "Nota maisvalia 1 a 5",
+            label: "Nota maisvalia 1 a 3",
           },
           {
             type: "number",
@@ -256,6 +255,11 @@ export default defineConfig({
             type: "image",
             label: "cover",
             name: "cover",
+          },
+          {
+            type: "image",
+            label: "imagenss",
+            name: "images",
           },
           {
             type: "rich-text",
