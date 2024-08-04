@@ -20,14 +20,14 @@ export default defineConfig({
     publicFolder: "src/.vuepress/public",
   },
   media: {
-    loadCustomStore: async () => {
-      const pack = await import('next-tinacms-cloudinary');
-      return pack.TinaCloudCloudinaryMediaStore;
-    },
-    // tina: {
-    //   mediaRoot: "",
-    //   publicFolder: "src/.vuepress/public",
+    // loadCustomStore: async () => {
+    //   const pack = await import('next-tinacms-cloudinary');
+    //   return pack.TinaCloudCloudinaryMediaStore;
     // },
+    tina: {
+      mediaRoot: "",
+      publicFolder: "src/.vuepress/public",
+    },
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
