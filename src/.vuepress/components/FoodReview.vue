@@ -10,7 +10,7 @@ defineProps(['review'])
     <div class="food-card">
   <img src="http://lorempixel.com.br/300/300" alt="Food Image" class="food-image">
   <div class="card-content">
-    <h2 class="food-title">Delicious Burger</h2>
+    <h2 class="food-title">Restaurante: {{ review.title }}</h2>
     <p class="food-description">Juicy beef patty, crispy bacon, and melted cheese on a toasted bun.</p>
     <div class="rating">
       <span class="star">★</span>
@@ -39,7 +39,7 @@ defineProps(['review'])
 }
 
 .food-card {
-  width: 300px;
+  width: 80wh;
   border: 1px solid #ccc;
   border-radius: 10px;
   overflow: hidden;
